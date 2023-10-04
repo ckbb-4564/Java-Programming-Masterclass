@@ -7,7 +7,7 @@ public class SpeedConverter {
             long milesPerHour = Math.round(kmPerHour / milesDivider);
             return milesPerHour;
         }
-    }// write your code here
+    }
 
     public static void printConversion(double kmPerHour) {
         if (kmPerHour < 0) {

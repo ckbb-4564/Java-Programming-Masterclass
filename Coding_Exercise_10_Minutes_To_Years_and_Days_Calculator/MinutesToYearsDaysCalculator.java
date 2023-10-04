@@ -8,5 +8,5 @@ public class MinutesToYearsDaysCalculator {
             int days = (int) (remainder / (60 * 24));
             System.out.println(minutes + " min = " + years + " y and " + days + " d");
         }
-    }// write your code here
+    }
 }
